@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Asher">
+    <meta name="description" content="My own personal website (pastel rainbow theme because I love these colors)">
+    <title>My Rainbow Nest - Home</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="stylesheets/mainstyle.css">
+</head>
+<body>
+    <nav>
+        <li id="navli-1"><a href="index.html">Home</a></li>
+        <li id="navli-2"><a href="about.html">About</a></li>
+        <li id="navli-3"><a href="blog.html">Blog</a></li>
+    </nav>
+    <main>
+        <div id="grid">
+            <div id="main-sections">
+                <section class="main-section">
+                    <h1 id="h1">My Rainbow Nest</h1>
+                    <p class="center">My own personal website (pastel rainbow theme because I love these colors)</p>
+                </section>
+                <section class="main-section">
+                    <h2>Sections you might wanna check out</h2>
+                    <div class="card-group">
+                        <div class="cards">
+                            <h3>Blog section</h3>
+                            <p>I even attempted to make a tagging system!</p>
+                        </div>
+                        <div class="cards">
+                            <h3>My about section</h3>
+                            <p>It has facts both about me and this website!</p>
+                        </div>
+                        <div class="cards">
+                            <h3>Another section</h3>
+                        </div>
+                    </div>
+                    <p>Also, this site works best on bigger screens. (Like tablets and computers) While it functions decently on phones I haven't figured out how to make it look its best yet.</p>
+                </section>
+            </div>
+            <div>
+                <section id="sidebar">
+                    <h2>Change fonts</h2>
+                    <label for="selecth1font">Select header 1 font:</label>
+                    <select id="selecth1font">
+                        <option value="1">Jetbrains Mono</option>
+                        <option value="2">Roboto</option>
+                        <option value="3">Georgia</option>
+                        <option value="4">OpenDyslexic</option>
+                    </select>
+                    <br>
+                    <label for="selectgeneralfont">Select general font:</label>
+                    <select id="selectgeneralfont">
+                        <option value="1">Roboto</option>
+                        <option value="2">Jetbrains Mono</option>
+                        <option value="3">Georgia</option>
+                        <option value="4">OpenDyslexic</option>
+                    </select>
+
+                    <p>Disclaimer: when going to other pages it isn't gonna remember your choice because idk how to make that happen.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>All content (such as text and images) on this site belongs to me unless stated otherwise. The fonts are all from Google Fonts except for <a href="https://opendyslexic.org/">OpenDyslexic</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="boxlinks.js"></script>
+</body>
+</html>

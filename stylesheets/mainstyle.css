@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url("open dyslexic/OpenDyslexic-Regular.otf")
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: rgb(255,198,255);
+    background: linear-gradient(312deg, rgba(255,198,255,1) 0%, rgba(189,178,255,1) 13%, rgba(160,196,255,1) 30%, rgba(155,246,255,1) 45%, rgba(202,255,191,1) 60%, rgba(253,255,182,1) 75%, rgba(255,214,165,1) 87%, rgba(255,173,173,1) 100%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Roboto", system-ui, sans-serif;
+}
+nav {
+    background-color: white;
+    padding: 30px;
+}
+nav li {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+    width: 100px;
+    margin-right: 20px;
+    margin: 10px;
+}
+nav li:hover {
+    cursor: pointer;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#navli-1 {
+    background-color: #ffadad;
+}
+#navli-2 {
+    background-color: #ffd6a5;
+}
+#navli-3 {
+    background-color: #fdffb6;
+}
+h1 {
+    font-family: "Jetbrains Mono", monospace;
+    text-align: center;
+    font-size: 3rem;
+}
+.center {
+    text-align: center;
+}
+select {
+    font-family: "Roboto", system-ui, sans-serif;
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#sidebar {
+    width: 20vw;
+}
+section {
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 60px;
+}
+.main-section {
+    width: 50vw;
+    margin-top: 30px;
+}
+p, label, select, h2, h3, ul {
+    margin: 10px;
+}
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+select {
+    padding: 5px;
+    background-color: #a0c4ff;
+    border: 1px #759ad4 solid;
+    border-radius: 5px;
+}
+select:hover {
+    background-color: #759ad4;
+}
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.cards {
+    background-color: #fdffb6;
+    height: 200px;
+    padding: 20px;
+}
+.cards:hover {
+    box-shadow: 10px 10px 20px #24242416;
+    cursor: pointer;
+}
+footer {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+/* lg */ 
+@media (max-width: 1024px) {
+    #sidebar {
+        width: 18vw;
+    }
+} 
+/* md */ 
+@media (max-width: 768px) {
+    #grid {
+        display: block;
+    }
+    .main-section {
+        width: 70vw;
+    }
+    #sidebar {
+        width: max-content;
+    }
+    .cards {
+        padding: 10px;
+        height: 300px;
+    }
+} 
+ /* xs */ 
+ @media (max-width: 475px) {
+    section {
+        padding: 50px;
+    }
+    .main-section {
+        width: 50vw;
+    }
+    .card-group {
+        display: block;
+    }
+    .cards {
+        margin-bottom: 10px;
+    }
+    #sidebar {
+        width: 50vw;
+    }
+ }
+

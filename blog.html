@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Asher">
+    <meta name="description" content="Blog posts about various topics. (with a working tag system!)">
+    <title>My Rainbow Nest - Blog</title>
+    <link rel="stylesheet" href="stylesheets/blogstyle.css">
+</head>
+<body>
+    <nav>
+        <li id="navli-1"><a href="index.html">Home</a></li>
+        <li id="navli-2"><a href="about.html">About</a></li>
+        <li id="navli-3"><a href="blog.html">Blog</a></li>
+    </nav>
+    <main>
+        <div id="grid">
+            <div id="main-sections">
+                <section class="main-section">
+                    <h1>Blog</h1>
+                    <p class="center">A place for me to post my ramblings.</p>
+                </section>
+                <section>
+                    <h2>Tags</h2>
+                    <button class="tag-button">All posts</button>
+                    <button class="tag-button">Long post</button>
+                    <button class="tag-button">Short post</button>
+                    <button class="tag-button">Image</button>
+                    <button class="tag-button">Cats</button>
+                    <button class="tag-button">Web Development</button>
+                    <button class="tag-button">This Website</button>
+                </section>
+                <section class="post short-post web-development this-website">
+                    <h2>Tagging System</h2>
+                    <p class="small-italic">Date posted:</p>
+
+                    <p>I am so excited about this website having a working tagging system. As I am writing this post I have just made the tagging system.</p>
+
+                    <p>The code is kinda repetitive, but at least it works. I tried doing a part of it with a function (so it wouldn't be as repetitive) but it didn't work for some reason.</p>
+
+                    <p class="tag-part">Tags: short post, web development, this website</p>
+                </section>
+                <section class="post long-post cats">
+                    <h2>My cats and how they have helped me</h2>
+                    <p class="small-italic">Date posted:</p>
+
+                    <p>Getting cats was totally unexpected for me. Me getting attached to them was even more unexpected. They originally belonged to my older sister and her friend but over time ownership has switched over to me and my mom, with me being closer with one cat and my mom being closer with the other.</p>
+
+                    <details>
+                        <summary>Read More</summary>
+                        <p>The cats' names are Frederick and Charlie. They're both gray cats though Frederick has some white markings. They are brothers and even though they fight sometimes it's obvious once you get to know them that they care about each other. Even though I didn't know them when they were kittens I feel like I've known them through a few important milestones. One of those milestones was Frederick catching his first mouse.</p>
+
+                        <p>They help me in many ways, one of those main ways being emotional support. Even when some days feel more inconsistent I can feel safe knowing that the cats are there. They are helpful when I'm really upset as well. Frederick especially knows just how to distract me from bad thoughts. They also help fill a void that has been there for a long time- the void that comes with not having many people you can trust as a child.</p>
+
+                        <p>Plus, as of right now my relationships with Frederick and Charlie are the only relationships I have that aren't tainted by any baggage. I don't have to wonder why they didn't do anything to help me when I was a kid because they weren't alive then. I don't have to feel guilty for exposing them to my issues because they probably wouldn't understand most of it even if I explained.</p>
+
+                        <p>Sure, there are some difficulties that come with having cats. I feel so tired most days that it is difficult to consistently take care of their litter box. It can also be difficult because I have certain other people living in my house that I'd rather avoid and sometimes that isn't compatible with me doing the litter box consistently. I wouldn't give the cats up for anything, though.</p>
+
+                        <p>There have been so many times the cats (Frederick especially) have saved me from going off the deep end. I have to keep these cats because I owe them a good life for all they have done for me. I have to protect them from anyone who could hurt them because they have protected me from myself. I have to feed them and give them water because if they could they'd probably do that same stuff for me.</p>
+
+                        <p>In conclusion, my cats are very important to me and they have helped me in a lot of ways. The past few years have been very difficult for me but thanks to my cats I've been able to keep going. I hope that the rest of their lives are filled with hope, happiness, and health and that I can be the best cat owner I can be.</p>
+                    </details>
+                    <p class="tag-part">Tags: long post, cats</p>
+                </section>
+            </div>
+            <div>
+                <section id="sidebar">
+                    <h2>Change fonts</h2>
+                    <label for="selecth1font">Select header 1 font:</label>
+                    <select id="selecth1font">
+                        <option value="1">Jetbrains Mono</option>
+                        <option value="2">Roboto</option>
+                        <option value="3">Georgia</option>
+                        <option value="4">OpenDyslexic</option>
+                    </select>
+                    <br>
+                    <label for="selectgeneralfont">Select general font:</label>
+                    <select id="selectgeneralfont">
+                        <option value="1">Roboto</option>
+                        <option value="2">Jetbrains Mono</option>
+                        <option value="3">Georgia</option>
+                        <option value="4">OpenDyslexic</option>
+                    </select>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>All content (such as text and images) on this site belongs to me unless stated otherwise. The fonts are all from Google Fonts except for <a href="https://opendyslexic.org/">OpenDyslexic</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="blogscript.js"></script>
+</body>
+</html>
