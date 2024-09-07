@@ -50,11 +50,11 @@ shortPostsButton.addEventListener("click", function(){
 
 personalPostsButton.addEventListener("click", function(){
     allPosts.forEach((post) => {
-        if (post.classList.contains("short-post") == false) {
+        if (post.classList.contains("personal") == false) {
             post.style.display = "none";
         }
 
-        if (post.classList.contains("short-post") == true) {
+        if (post.classList.contains("personal") == true) {
             post.style.display = "block";
         }
     })
