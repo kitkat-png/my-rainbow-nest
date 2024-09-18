@@ -81,3 +81,7 @@ document.getElementById("navli-3").addEventListener("click", function(){
     window.location.href = "blog.html";
 });
 
+document.getElementById("navli-4").addEventListener("click", function(){
+    window.location.href = "contact.html";
+});
+
