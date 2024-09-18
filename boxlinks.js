@@ -11,3 +11,7 @@ box1.addEventListener("click", function(){
 box2.addEventListener("click", function(){
     window.location.href = "about.html";
 });
+
+box3.addEventListener("click", function(){
+    window.location.href = "contact.html";
+});
